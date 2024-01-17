@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build_prod": "vite build --mode prod",
     "dev": "vite",
     "prod": "vite --mode prod",
-    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {

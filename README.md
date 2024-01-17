@@ -1,29 +1,26 @@
-# shp-devops-front
+# SHP devops front
 
-This template should help get you started developing with Vue 3 in Vite.
+это репозиторий с frontend частью приложения random number
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+## Установка зависимостей
+```shell
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+команда создаст папку node_modules и установит туда зависимости проекта
 
-```sh
+## Запуск dev
+
+```shell
 npm run dev
 ```
 
-### Compile and Minify for Production
+Запустит приложение в dev режиме, ожидается что backend будет на localhost:8080
 
-```sh
-npm run build
+## Сборка prod
+
+```shell
+npm run build_prod
 ```
+
+Создаст папку `dist` и поместит туда файлы для статической раздачи
